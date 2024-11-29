@@ -55,7 +55,7 @@ export const About = () => {
           >
             <div className="relative w-full aspect-square rounded-2xl overflow-hidden">
               <img
-                src="https://media.licdn.com/dms/image/v2/D5603AQFIi5JpUInIYQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1708891335182?e=2147483647&v=beta&t=dzKKtIV3iZ3PJZBU1QKQM9PX7HzNswBCRK82Q9O0xAI"
+                src="src\Photo11.jpg"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
