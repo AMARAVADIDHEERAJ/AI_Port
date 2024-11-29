@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Brain, Code, Database, Server, GitBranch, Users } from 'lucide-react';
+import { Brain, Code, Database, Server, GitBranch, Users, Cloud } from 'lucide-react';
 
 const skills = [
   {
@@ -14,7 +14,7 @@ const skills = [
     category: 'Technical',
   },
   {
-    name: 'MongoDB',
+    name: 'MongoDB, SQL',
     icon: <Database className="w-6 h-6" />,
     category: 'Technical',
   },
@@ -24,12 +24,17 @@ const skills = [
     category: 'Technical',
   },
   {
+    name: 'Google Cloud',
+    icon: <Cloud className="w-6 h-6" />,
+    category: 'Technical',
+  },
+  {
     name: 'Version Control',
     icon: <GitBranch className="w-6 h-6" />,
     category: 'Technical',
   },
   {
-    name: 'C++',
+    name: 'Python',
     icon: <Code className="w-6 h-6" />,
     category: 'Technical',
   },

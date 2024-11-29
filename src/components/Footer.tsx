@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin, Instagram, Mail } from 'lucide-react';
 
 export const Footer = () => {
   return (
@@ -21,6 +21,16 @@ export const Footer = () => {
           >
             <Linkedin className="w-6 h-6" />
           </a>
+
+          <a
+            href="https://www.instagram.com/dheeraj_amaravadi/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 dark:text-gray-400 hover:text-purple-500 dark:hover:text-purple-400"
+          >
+            <Instagram className="w-6 h-6" />
+          </a>
+
           <a
             href="amaravadidheeraj@gmail.com"
             className="text-gray-600 dark:text-gray-400 hover:text-purple-500 dark:hover:text-purple-400"

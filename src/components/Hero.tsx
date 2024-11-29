@@ -1,8 +1,9 @@
 import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
-import { Github, Linkedin, Mail, Brain, Sparkles, Code2 } from 'lucide-react';
+import { Github, Linkedin, Instagram, Mail, Brain, Sparkles, Code2 } from 'lucide-react';
 import { NeuralNetwork } from './animations/NeuralNetwork';
 import { SocialLink } from './ui/SocialLink';
+import { MLVisualization } from './animations/MLVisualization';
 
 export const Hero = () => {
   return (
@@ -11,6 +12,10 @@ export const Hero = () => {
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center text-center">
+          {/* AI/ML Visualization */}
+          <div className="w-full h-48 mb-8">
+            <MLVisualization />
+          </div>
           {/* Animated Icons */}
           <motion.div 
             className="flex items-center gap-4 mb-8"
@@ -58,7 +63,7 @@ export const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5 }}
             >
-              I'm Dheeraj Amaravadi
+              Dheeraj Amaravadi
             </motion.h1>
 
             <motion.div 
@@ -96,18 +101,20 @@ export const Hero = () => {
               <SocialLink
                 href="https://github.com/AMARAVADIDHEERAJ"
                 icon={<Github className="w-6 h-6" />}
-                gradient="from-blue-500 to-purple-500"
-              />
+                gradient="from-blue-500 to-purple-500" label={''}              />
               <SocialLink
                 href="https://www.linkedin.com/in/amaravadi-dheeraj/"
                 icon={<Linkedin className="w-6 h-6" />}
-                gradient="from-purple-500 to-pink-500"
-              />
+                gradient="from-purple-500 to-pink-500" label={''}              />
+                <SocialLink
+                href="https://www.instagram.com/dheeraj_amaravadi/"
+                icon={<Instagram className="w-6 h-6" />}
+                label="Follow"
+                gradient="from-pink-500 to-red-500"                            />
               <SocialLink
                 href="mailto:amaravadidheeraj@gmail.com"
                 icon={<Mail className="w-6 h-6" />}
-                gradient="from-pink-500 to-red-500"
-              />
+                gradient="from-pink-500 to-red-500" label={''}                 />
             </motion.div>
           </motion.div>
         </div>
