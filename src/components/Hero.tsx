@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
-import { Github, Linkedin, Instagram, Mail, Brain, Sparkles, Code2 } from 'lucide-react';
+import { Github, Linkedin, Instagram, Brain, Sparkles, Code2 } from 'lucide-react';
 import { NeuralNetwork } from './animations/NeuralNetwork';
 import { SocialLink } from './ui/SocialLink';
 import { MLVisualization } from './animations/MLVisualization';
@@ -111,10 +111,10 @@ export const Hero = () => {
                 icon={<Instagram className="w-6 h-6" />}
                 label="Follow"
                 gradient="from-pink-500 to-red-500"                            />
-              <SocialLink
+              {/* <SocialLink
                 href="mailto:amaravadidheeraj@gmail.com"
                 icon={<Mail className="w-6 h-6" />}
-                gradient="from-pink-500 to-red-500" label={''}                 />
+                gradient="from-pink-500 to-red-500" label={''}                 /> */}
             </motion.div>
           </motion.div>
         </div>

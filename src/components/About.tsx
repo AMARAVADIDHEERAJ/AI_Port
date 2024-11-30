@@ -55,7 +55,7 @@ export const About = () => {
           >
             <div className="relative w-full aspect-square rounded-2xl overflow-hidden">
               <img
-                src="https://github.com/AMARAVADIDHEERAJ/AI_Port/blob/1ce183c618d9a41623a55bde66383908843fe4b8/src/Photo11.jpg"
+                src=".\src\IMG_7885.png"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
