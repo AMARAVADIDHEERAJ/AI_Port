@@ -2,7 +2,6 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { GraduationCap, Briefcase, Award } from 'lucide-react';
 
-const imgUrl = new URL('/IMG_7885.png', import.meta.url).href
 
 export const About = () => {
   const [ref, inView] = useInView({
@@ -57,7 +56,7 @@ export const About = () => {
           >
             <div className="relative w-full aspect-square rounded-2xl overflow-hidden">
               <img
-                src="imgUrl"
+                src="/IMG_7885.png"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
