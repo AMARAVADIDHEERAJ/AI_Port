@@ -13,17 +13,10 @@ export const About = () => {
     {
       icon: <GraduationCap />,
       title: "Bachelor's in Computer Science",
-      organization: 'VIT University',
+      organization: 'VIT University, Chennai',
       period: '2020 - 2024',
       description:
         'CSE with Specialization in Artificial Intelligence and Machine Learning',
-    },
-    {
-      icon: <Briefcase />,
-      title: 'Freelancer at Outlier',
-      organization: 'Outlier',
-      period: '2024',
-      description: 'Remote AI Training for Hindi Writers',
     },
     {
       icon: <Award />,
@@ -32,6 +25,13 @@ export const About = () => {
       period: '2021 - 2024',
       description:
         'Volunteer and Secretary at NSS, VIT Chennai',
+    },
+    {
+      icon: <Briefcase />,
+      title: 'Freelancer at Outlier',
+      organization: 'Outlier',
+      period: '2024',
+      description: 'Remote AI Training for Hindi Writers',
     },
   ];
 
