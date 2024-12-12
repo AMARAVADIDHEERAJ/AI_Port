@@ -32,7 +32,7 @@ export const Footer = () => {
           </a>
 
           <a
-            href="amaravadidheeraj@gmail.com"
+            href="mailto:amaravadidheeraj@gmail.com"
             className="text-gray-600 dark:text-gray-400 hover:text-purple-500 dark:hover:text-purple-400"
           >
             <Mail className="w-6 h-6" />
