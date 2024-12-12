@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle with Gradient -->
+  <circle cx="256" cy="256" r="256" fill="url(#gradient)" />
+  
+  <!-- Neural Network Background Pattern -->
+  <path class="network-lines" d="M96 256C96 256 176 128 256 128C336 128 416 256 416 256" 
+        stroke="rgba(255,255,255,0.15)" stroke-width="8" stroke-linecap="round"/>
+  <path class="network-lines" d="M96 256C96 256 176 384 256 384C336 384 416 256 416 256" 
+        stroke="rgba(255,255,255,0.15)" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- DJ Letters -->
+  <g transform="translate(256, 256) scale(1.2)">
+    <!-- D -->
+    <path d="M-80 -60 L-60 -60 Q-20 -60 -20 0 Q-20 60 -60 60 L-80 60 Z" 
+          fill="white" stroke="white" stroke-width="8"/>
+    
+    <!-- J -->
+    <path d="M20 -60 L60 -60 L60 20 Q60 60 20 60 Q-20 60 -20 20" 
+          fill="none" stroke="white" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- AI Text -->
+  <g transform="translate(256, 340) scale(0.8)">
+    <text x="0" y="0" 
+          font-family="Arial, sans-serif" 
+          font-weight="bold" 
+          font-size="48" 
+          fill="white" 
+          text-anchor="middle" 
+          dominant-baseline="middle">
+      AI
+    </text>
+  </g>
+  
+  <!-- Decorative Circuit Lines -->
+  <g stroke="rgba(255,255,255,0.3)" stroke-width="4" stroke-linecap="round">
+    <path d="M128 128 L160 128 L160 160" />
+    <path d="M384 128 L352 128 L352 160" />
+    <path d="M128 384 L160 384 L160 352" />
+    <path d="M384 384 L352 384 L352 352" />
+  </g>
+  
+  <!-- Nodes -->
+  <circle cx="128" cy="128" r="8" fill="white"/>
+  <circle cx="384" cy="128" r="8" fill="white"/>
+  <circle cx="128" cy="384" r="8" fill="white"/>
+  <circle cx="384" cy="384" r="8" fill="white"/>
+  
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+    
+    <!-- Animation for network lines -->
+    <style>
+      .network-lines {
+        animation: pulse 2s infinite;
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.15; }
+        50% { opacity: 0.3; }
+      }
+    </style>
+  </defs>
+</svg>
