@@ -34,7 +34,7 @@ export const About = () => {
     },
     {
       icon: <Briefcase />,
-      title: 'Freelancer at ',
+      title: 'Freelancer at Outlier',
       organization: 'Outlier',
       period: '2024',
       description: 'Remote AI Trainer',
