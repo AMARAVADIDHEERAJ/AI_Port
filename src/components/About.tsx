@@ -52,7 +52,7 @@ export const About = () => {
           animate={bioInView ? "visible" : "hidden"}
           className="space-y-6"
         >
-          <div className="relative w-full max-w-md mx-auto aspect-square rounded-2xl overflow-hidden">
+          <div className="relative w-full aspect-square rounded-2xl overflow-hidden">
             <img
               src="/IMG_7885.png"
               alt="Profile"
