@@ -21,23 +21,23 @@ export const About = () => {
     {
       icon: <GraduationCap />,
       title: "Bachelor's in Computer Science",
-      organization: 'VIT University',
+      organization: 'VIT University, Chennai',
       period: '2020 - 2024',
       description: 'CSE with Specialization in Artificial Intelligence and Machine Learning',
     },
     {
-      icon: <Briefcase />,
+      icon: <Award />,
       title: 'Secretary at NSS',
       organization: 'National Service Scheme (NSS)',
       period: '2021 - 2024',
       description: 'Volunteer and Secretary at NSS, VIT Chennai',
     },
     {
-      icon: <Award />,
-      title: 'Research Paper [In-process]',
-      organization: 'Multimedia Tools and Applications',
+      icon: <Briefcase />,
+      title: 'Freelancer at ',
+      organization: 'Outlier',
       period: '2024',
-      description: 'ECGNET: A Deep Learning Approach for Rapid Arrhythmia Classification',
+      description: 'Remote AI Trainer',
     },
   ];
 
