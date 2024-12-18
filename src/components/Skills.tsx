@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Brain, Code, Database, Server, GitBranch, Users, Cloud, Clipboard, Lightbulb } from 'lucide-react';
+import { Brain, Code, Database, Server, GitBranch, Users, Cloud, Lightbulb } from 'lucide-react';
 
 const skills = [
   {
