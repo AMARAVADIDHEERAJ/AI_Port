@@ -39,6 +39,13 @@ export const About = () => {
       period: '2024',
       description: 'Remote AI Trainer',
     },
+    {
+      icon: <Briefcase />,
+      title: 'Junior Developer',
+      organization: 'ILaqa Technologies',
+      period: '2024',
+      description: 'Developing and maintaining APIs with Node.js, working on database solutions using MongoDB, and optimizing application performance for scalability and efficiency.',
+    },
   ];
 
   return (
@@ -64,18 +71,17 @@ export const About = () => {
 
           <div className="prose dark:prose-invert max-w-none">
             <p className="text-lg text-gray-600 dark:text-gray-400">
-              As a passionate Developer with a focus on AI and Machine Learning, 
-              I bring together technical expertise and creative problem-solving 
-              to build innovative solutions. My journey in technology began with 
-              a fascination for how machines can learn and adapt, leading me to 
+              As a passionate developer with a focus on AI and Machine Learning, 
+              I combine technical expertise with creative problem-solving to design 
+              and implement innovative solutions. My journey in technology began with 
+              a fascination for how machines can learn and adapt, which led me to 
               pursue advanced studies in Computer Science.
             </p>
             <p className="text-lg text-gray-600 dark:text-gray-400">
-              When I'm not coding or training models, you'll find me contributing 
-              to open-source projects, writing technical blogs, or mentoring 
-              aspiring developers. I believe in the power of technology to solve 
-              real-world problems and am constantly exploring new ways to push 
-              the boundaries of what's possible.
+              When I'm not coding or training models, you'll find me working on hobby projects, 
+              exploring the latest AI tools, or contributing to open-source projects. I believe in the power of technology to solve 
+              real-world problems and am always seeking new ways to push 
+              the boundaries of what's possible in the world of AI.
             </p>
           </div>
         </motion.div>
