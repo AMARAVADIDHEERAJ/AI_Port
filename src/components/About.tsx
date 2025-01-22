@@ -70,14 +70,14 @@ export const About = () => {
           </div>
 
           <div className="prose dark:prose-invert max-w-none">
-            <p className="text-lg text-gray-600 dark:text-gray-400">
+            <p className="text-lg text-gray-600 dark:text-gray-400 text-justify">
               As a passionate developer with a focus on AI and Machine Learning, 
               I combine technical expertise with creative problem-solving to design 
               and implement innovative solutions. My journey in technology began with 
               a fascination for how machines can learn and adapt, which led me to 
               pursue advanced studies in Computer Science.
             </p>
-            <p className="text-lg text-gray-600 dark:text-gray-400">
+            <p className="text-lg text-gray-600 dark:text-gray-400 text-justify">
               When I'm not coding or training models, you'll find me working on hobby projects, 
               exploring the latest AI tools, or contributing to open-source projects. I believe in the power of technology to solve 
               real-world problems and am always seeking new ways to push 
