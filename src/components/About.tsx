@@ -20,7 +20,7 @@ export const About = () => {
   const timeline = [
     {
       icon: <GraduationCap />,
-      title: "Bachelor's in Computer Science",
+      title: "B.Tech in Computer Science Engineering",
       organization: 'VIT University, Chennai',
       period: '2020 - 2024',
       description: 'CSE with Specialization in Artificial Intelligence and Machine Learning',

@@ -49,7 +49,7 @@ const skills = [
     category: 'Technical',
   },
   {
-    name: 'Version Control',
+    name: 'Git Version Control',
     icon: <GitBranch className="w-6 h-6" />,
     category: 'Technical',
   },
