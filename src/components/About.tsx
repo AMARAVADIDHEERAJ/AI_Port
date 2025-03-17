@@ -34,17 +34,17 @@ export const About = () => {
     },
     {
       icon: <Briefcase />,
-      title: 'Freelancer at Outlier',
-      organization: 'Outlier',
+      title: 'Freelance LLM Trainer & Coding Expert',
+      organization: 'Outlier.ai',
       period: '2024',
-      description: 'Remote AI Trainer',
+      description: 'Contributed to training generative AI models by evaluating and ranking code, crafting computer science questions, and providing detailed feedback on AI-generated code in Python to ensure accuracy and efficiency.',
     },
     {
       icon: <Briefcase />,
       title: 'Junior Developer',
       organization: 'ILaqa Technologies',
-      period: '2024',
-      description: 'Developing and maintaining APIs with Node.js, working on database solutions using MongoDB, and optimizing application performance for scalability and efficiency.',
+      period: 'July 2024 - February 2025',
+      description: 'Developed and maintained APIs using Node.js, collaborated on database solutions with MongoDB, and enhanced application performance and scalability, contributing to improved system efficiency. ',
     },
   ];
 

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-// import { ExternalLink, Github } from 'lucide-react';
+import { ExternalLink, Github } from 'lucide-react';
 import { projects } from '../data/projects';
 
 export const Projects = () => {
@@ -89,7 +89,7 @@ export const Projects = () => {
                   ))}
                 </div>
 
-                {/* <div className="flex gap-4">
+                {<div className="flex gap-4">
                   <a
                     href={project.githubUrl}
                     target="_blank"
@@ -110,7 +110,7 @@ export const Projects = () => {
                       <span>Demo</span>
                     </a>
                   )}
-                </div> */}
+                </div>}
               </div>
             </motion.div>
           ))}
