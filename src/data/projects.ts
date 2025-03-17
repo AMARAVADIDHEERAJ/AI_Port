@@ -10,7 +10,7 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/AMARAVADIDHEERAJ/Crop-Recommendation-System',
     category: 'AI/ML',
     image:
-      'src/crop1.png'
+      '/crop1.png'
       // 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMGkrTOERTS9ebKFRXstOKgRZBOGPk8qghNA&s',
   },
   {
