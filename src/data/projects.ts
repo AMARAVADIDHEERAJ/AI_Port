@@ -23,7 +23,7 @@ export const projects: Project[] = [
       'https://github.com/AMARAVADIDHEERAJ/Network-Intrusion-Detection-System-Using-Deep-Learning',
     category: 'AI/ML',
     image:
-      '/src/network.png'
+      '/network.png'
       // 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMMOTtFgb_efPWt4I7v16CNnoEqc0T0p-WFg&s',
   },
   {
@@ -35,7 +35,7 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/AMARAVADIDHEERAJ/Enhanced-Arrhythmia-Detection-System-Using-ECGNet',
     category: 'AI/ML',
     image:
-      './src/ECG.png'
+      '/ECG.png'
       // 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXWMe45dFlwsLVTq4tWxPFTtUkRxhZFIipfg&s',
   },
   {
@@ -47,7 +47,7 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/AMARAVADIDHEERAJ/Automatic-Early-Fire-Detection-System-Using-Deep-Learning',
     category: 'AI/ML',
     image:
-      'src/Firedetection1.png',
+      '/Firedetection1.png',
   },
   {
     id: 5,
@@ -58,7 +58,7 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/AMARAVADIDHEERAJ/Lane-Line-Detection',
     category: 'AI/ML',
     image:
-      '/src/LaneLine.png',
+      '/LaneLine.png',
   },
   {
     id: 6,
@@ -69,6 +69,6 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/AMARAVADIDHEERAJ/Telecom-Customer-Retension-Prediction-Using-Deep-Learning',
     category: 'AI/ML',
     image:
-      '/src/telecom.png',
+      '/telecom.png',
   },
 ];
