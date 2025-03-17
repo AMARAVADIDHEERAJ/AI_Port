@@ -10,7 +10,7 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/AMARAVADIDHEERAJ/Crop-Recommendation-System',
     category: 'AI/ML',
     image:
-      '/crop1.png'
+      './src/crop1.png'
       // 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMGkrTOERTS9ebKFRXstOKgRZBOGPk8qghNA&s',
   },
   {
@@ -23,7 +23,7 @@ export const projects: Project[] = [
       'https://github.com/AMARAVADIDHEERAJ/Network-Intrusion-Detection-System-Using-Deep-Learning',
     category: 'AI/ML',
     image:
-      'src/network.png'
+      './src/network.png'
       // 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMMOTtFgb_efPWt4I7v16CNnoEqc0T0p-WFg&s',
   },
   {
