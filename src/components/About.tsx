@@ -37,14 +37,14 @@ export const About = () => {
       title: 'Freelance LLM Trainer & Coding Expert',
       organization: 'Outlier.ai',
       period: '2024',
-      description: 'Contributed to training generative AI models by evaluating and ranking code, crafting computer science questions, and providing detailed feedback on AI-generated code in Python to ensure accuracy and efficiency.',
+      // description: 'Contributed to training generative AI models by evaluating and ranking code, crafting computer science questions, and providing detailed feedback on AI-generated code in Python to ensure accuracy and efficiency.',
     },
     {
       icon: <Briefcase />,
       title: 'Junior Developer',
       organization: 'ILaqa Technologies',
       period: 'July 2024 - February 2025',
-      description: 'Developed and maintained APIs using Node.js, collaborated on database solutions with MongoDB, and enhanced application performance and scalability, contributing to improved system efficiency. ',
+      // description: 'Developed and maintained APIs using Node.js, collaborated on database solutions with MongoDB, and enhanced application performance and scalability, contributing to improved system efficiency. ',
     },
     {
       icon: <Briefcase />,
@@ -68,7 +68,7 @@ export const About = () => {
         >
           <div className="relative w-full aspect-square rounded-2xl overflow-hidden">
             <img
-              src="/IMG_7885.png"
+              src="/nPhoto.png"
               alt="Profile"
               className="w-full h-full object-cover"
               // loading="lazy"
