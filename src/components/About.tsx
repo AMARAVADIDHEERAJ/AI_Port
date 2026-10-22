@@ -34,7 +34,7 @@ export const About = () => {
     },
     {
       icon: <Briefcase />,
-      title: 'Freelance LLM Trainer & Coding Expert',
+      title: 'AI & LLM Evaluator',
       organization: 'Outlier.ai',
       period: '2024',
       // description: 'Contributed to training generative AI models by evaluating and ranking code, crafting computer science questions, and providing detailed feedback on AI-generated code in Python to ensure accuracy and efficiency.',
