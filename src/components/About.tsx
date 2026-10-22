@@ -48,7 +48,7 @@ export const About = () => {
     },
     {
       icon: <Briefcase />,
-      title: 'Software Quality Engineer',
+      title: 'Artificial Intelligence Engineer',
       organization: 'Tektronix',
       period: 'April 2025 - Present',
       // description: 'Developed and maintained APIs using Node.js, collaborated on database solutions with MongoDB, and enhanced application performance and scalability, contributing to improved system efficiency. ',
